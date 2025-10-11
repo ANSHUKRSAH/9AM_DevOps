@@ -1,6 +1,8 @@
 #!/bin/bash
 
-for i in {1..10}
+if [ $name == "Anshu" ]
+
 then
-   echo "Hello World"
-done
+   echo "User accepted"
+else
+   echo "Invalid user"                                                      fi    
